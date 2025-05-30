@@ -56,6 +56,6 @@ IAM permissions for logging are set.
 
 Log groups created in CloudWatch.
 
-Manual API calls have triggered WAF, but logs do not appear.
+Manual API calls have not triggered WAF, so logs do not appear.
 
 Seeking guidance on debugging AWS WAF logging pipelines.
