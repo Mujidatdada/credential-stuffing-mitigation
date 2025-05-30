@@ -1,0 +1,22 @@
+{
+  "ResourceArn": "arn:aws:wafv2:eu-north-1:619071353592:regional/webacl/CredStuffDefense/e50ae308-b268-457c-b0a6-29411fe70804",
+  "LogDestinationConfigs": [
+    "arn:aws:logs:eu-north-1:619071353592:log-group:CredStuffDefenseLogs"
+  ],
+  "LoggingFilter": {
+    "DefaultBehavior": "KEEP",
+    "Filters": [
+      {
+        "Behavior": "DROP",
+        "Requirement": "MEETS_ANY",
+        "Conditions": [
+          {
+            "ActionCondition": {
+              "Action": "ALLOW"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
