@@ -12,9 +12,9 @@ Python Scripts: to simulate credential stuffing attempts.
 
 Wireshark: for low-level traffic analysis.
 
-🌟 Original Objective: Mitigate credential stuffing attacks on fintech APIs using AWS WAF logging and rate-limiting.
+Original Objective: Mitigate credential stuffing attacks on fintech APIs using AWS WAF logging and rate-limiting.
 
-✅ Progress So Far
+Progress So Far
 
 Phase 1: Research
 
@@ -58,13 +58,13 @@ Ran CLI command:
 
 I HAVE TRIED TROUBLESHOOTING
 
-WebACL scope set to REGIONAL ✅
+WebACL scope set to REGIONAL 
 
-WebACL correctly attached to ALB✅
+WebACL correctly attached to ALB
 
-IAM permissions for WAF logging✅
+IAM permissions for WAF logging
 
-Log group name and ARN in config match✅
+Log group name and ARN in config match
 
 Key Question
 
