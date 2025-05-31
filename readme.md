@@ -58,4 +58,4 @@ Log groups created in CloudWatch.
 
 Manual API calls have not triggered WAF, so logs do not appear.
 
-Seeking guidance on debugging AWS WAF logging pipelines.
+Seeking guidance on triggering WAF with manual API calls and debugging AWS WAF logging pipelines.
